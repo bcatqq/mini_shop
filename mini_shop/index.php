@@ -81,7 +81,7 @@ function add_to_cart($goods_sn = '', $goods_title = '')
     if (empty($goods_sn)) {
         return;
     }
-    $end_time = time() + 365 * 86400;
+    $end_time = time() + 365 * 86400;//123123
     setcookie("cart[$goods_sn][goods_amount]", 1, $end_time);
     setcookie("cart[$goods_sn][goods_title]", $goods_title, $end_time);
 }
