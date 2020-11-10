@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-10-20 07:15:46
+/* Smarty version 3.1.29, created on 2020-11-10 06:18:51
   from "C:\Users\bcats\Downloads\UniServerZ\www\mini_shop\mini_shop\templates\side_tools.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5f8e8092b104f8_87874122',
+  'unifunc' => 'content_5faa30cba59aa8_48870338',
   'file_dependency' => 
   array (
     '75d9ce1129d0ef0349d3a13ff14ac3dcb15473a0' => 
     array (
       0 => 'C:\\Users\\bcats\\Downloads\\UniServerZ\\www\\mini_shop\\mini_shop\\templates\\side_tools.html',
-      1 => 1603173545,
+      1 => 1604989118,
       2 => 'file',
     ),
   ),
@@ -19,13 +19,14 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5f8e8092b104f8_87874122 ($_smarty_tpl) {
+function content_5faa30cba59aa8_48870338 ($_smarty_tpl) {
 ?>
 <div class="alert alert-success">
   <?php echo $_smarty_tpl->tpl_vars['login_user']->value['user_name'];?>
 您好！歡迎光臨<?php echo $_smarty_tpl->tpl_vars['shop_name']->value;?>
 
 </div>
+<a href="game.php" class="btn btn-block btn-danger">小遊戲</a>
 <a href="index.php" class="btn btn-block btn-primary">回首頁</a>
 <a href="user.php?op=user_display&user_sn=<?php echo $_smarty_tpl->tpl_vars['login_user']->value['user_sn'];?>
 " class="btn btn-block btn-info">我的帳號</a>
