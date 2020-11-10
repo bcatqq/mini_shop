@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-10-20 07:35:21
+/* Smarty version 3.1.29, created on 2020-11-09 06:45:49
   from "C:\Users\bcats\Downloads\UniServerZ\www\mini_shop\mini_shop\templates\goods_display.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5f8e852906daf5_99830105',
+  'unifunc' => 'content_5fa8e59db2ced2_63103542',
   'file_dependency' => 
   array (
     '99fa559e29cadbe65248627f00fd4731fca94ca8' => 
     array (
       0 => 'C:\\Users\\bcats\\Downloads\\UniServerZ\\www\\mini_shop\\mini_shop\\templates\\goods_display.html',
-      1 => 1603173544,
+      1 => 1604851970,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5f8e852906daf5_99830105 ($_smarty_tpl) {
+function content_5fa8e59db2ced2_63103542 ($_smarty_tpl) {
 ?>
 <div class="row">
   <div class="col-md-6">
@@ -50,10 +50,10 @@ function content_5f8e852906daf5_99830105 ($_smarty_tpl) {
 
 
 <ul class="nav nav-tabs">
-  <li role="presentation" class="active"><a href="#goods" aria-controls="goods" role="tab" data-toggle="tab">商品介紹</a></li>
-  <li role="presentation"><a href="#note" aria-controls="note" role="tab" data-toggle="tab">退換或須知</a></li>
-  <li role="presentation"><a href="#service" aria-controls="service" role="tab" data-toggle="tab">售後服務</a></li>
-  <li role="presentation"><a href="#other" aria-controls="other" role="tab" data-toggle="tab">特別說明</a></li>
+  <li class="nav-item"><a class="nav-link active"href="#goods" aria-controls="goods" role="tab" data-toggle="tab">商品介紹</a></li>
+  <li class="nav-link active"><a href="#note" aria-controls="note" role="tab" data-toggle="tab">退換或須知</a></li>
+  <li class="nav-link active"><a href="#service" aria-controls="service" role="tab" data-toggle="tab">售後服務</a></li>
+  <li class="nav-link active"><a href="#other" aria-controls="other" role="tab" data-toggle="tab">特別說明</a></li>
 </ul>
 
 <div class="tab-content">

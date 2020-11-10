@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-10-20 07:08:53
+/* Smarty version 3.1.29, created on 2020-11-03 07:30:57
   from "C:\Users\bcats\Downloads\UniServerZ\www\mini_shop\mini_shop\templates\goods_list.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5f8e7ef5e7b9a7_17660186',
+  'unifunc' => 'content_5fa10731a34ac8_39704249',
   'file_dependency' => 
   array (
     'ad911c848e6a93b95a76078ed08eccb6cd904acd' => 
     array (
       0 => 'C:\\Users\\bcats\\Downloads\\UniServerZ\\www\\mini_shop\\mini_shop\\templates\\goods_list.html',
-      1 => 1603173545,
+      1 => 1604388651,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5f8e7ef5e7b9a7_17660186 ($_smarty_tpl) {
+function content_5fa10731a34ac8_39704249 ($_smarty_tpl) {
 ?>
 <div class="row">
   <?php
@@ -39,7 +39,7 @@ $__foreach_goods_0_saved_local_item = $_smarty_tpl->tpl_vars['goods'];
         <a href="index.php?goods_sn=<?php echo $_smarty_tpl->tpl_vars['goods']->value['goods_sn'];?>
 "><img src="<?php echo $_smarty_tpl->tpl_vars['goods']->value['pic'];?>
 " alt="<?php echo $_smarty_tpl->tpl_vars['goods']->value['goods_title'];?>
-"></a>
+"class="img-fluid"></a>
         <div class="caption">
           <div style="height: 60px;">
             <h3><a href="index.php?goods_sn=<?php echo $_smarty_tpl->tpl_vars['goods']->value['goods_sn'];?>

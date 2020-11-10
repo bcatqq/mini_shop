@@ -2,7 +2,7 @@
   {foreach from=$all_goods item=goods}
     <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
-        <a href="index.php?goods_sn={$goods.goods_sn}"><img src="{$goods.pic}" alt="{$goods.goods_title}"></a>
+        <a href="index.php?goods_sn={$goods.goods_sn}"><img src="{$goods.pic}" alt="{$goods.goods_title}"class="img-fluid"></a>
         <div class="caption">
           <div style="height: 60px;">
             <h3><a href="index.php?goods_sn={$goods.goods_sn}">{$goods.goods_title}</a></h3>
